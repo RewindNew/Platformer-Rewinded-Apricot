@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class DeadlyTrapRewindedApricot : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private PlayerStatsRewindedApricot _playerStats;
+    [SerializeField] private UIManagerRewindedApricot _uiManager;
+    private void OnCollisionEnter2D(Collision2D colision)
     {
-        
-    }
+        if (colision.gameObject.tag == "Player")
+        {
+            _playerStats.RestarVida(20);
+            _uiManager.RestarFillAmount(0.2f);
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
     }
 }

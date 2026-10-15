@@ -1,18 +1,34 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+
 
 public class GameManagerRewindedApricot : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    [SerializeField] private PlayerStatsRewindedApricot _playerStats;
+
+    private void Start()
     {
-        
+        ReanudarElJuego();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void CargarEscena(int scene)
     {
-        
+        SceneManager.LoadScene(scene);
+    }
+
+    public void SalirDelJuego()
+    {
+        Application.Quit();
+    }
+
+    public void PausarElJuego()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void ReanudarElJuego()
+    {
+        Time.timeScale = 1;
     }
 }

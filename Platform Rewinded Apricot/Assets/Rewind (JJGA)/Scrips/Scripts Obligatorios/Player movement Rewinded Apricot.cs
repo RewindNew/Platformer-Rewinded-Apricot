@@ -25,30 +25,28 @@ public class PlayermovementRewindedApricot : MonoBehaviour
             }
         }
 
-        if (_groundCheck.estaEnSuelo)
+
+
+        if (Input.GetKey(KeyCode.D))
         {
-            if (Input.GetKey(KeyCode.D))
-            {
-                _rigidBody2D.linearVelocity = new Vector2(1 * _movementSpeed, _rigidBody2D.linearVelocity.y);
-                _reflect.flipX = false;
-            }
+            _rigidBody2D.linearVelocity = new Vector2(1 * _movementSpeed, _rigidBody2D.linearVelocity.y);
+            _reflect.flipX = false;
+        }
+
+
+
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            _rigidBody2D.linearVelocity = new Vector2(-1 * _movementSpeed, _rigidBody2D.linearVelocity.y);
+            _reflect.flipX = true;
 
         }
-  
-        if (_groundCheck.estaEnSuelo)
-        {
-            if (Input.GetKey(KeyCode.A))
-            {
-                _rigidBody2D.linearVelocity = new Vector2(-1 * _movementSpeed, _rigidBody2D.linearVelocity.y);
-                _reflect.flipX = true;
 
-            }
-        }
-    
-    
-    
-    
-    
+
+
+
+
 
 
 
