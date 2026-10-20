@@ -26,32 +26,17 @@ public class PlayermovementRewindedApricot : MonoBehaviour
         }
 
 
-
         if (Input.GetKey(KeyCode.D))
         {
             _rigidBody2D.linearVelocity = new Vector2(1 * _movementSpeed, _rigidBody2D.linearVelocity.y);
             _reflect.flipX = false;
         }
 
-
-
-
         if (Input.GetKey(KeyCode.A))
         {
             _rigidBody2D.linearVelocity = new Vector2(-1 * _movementSpeed, _rigidBody2D.linearVelocity.y);
             _reflect.flipX = true;
-
         }
-
-
-
-
-
-
-
-
-
-
 
     }
 }

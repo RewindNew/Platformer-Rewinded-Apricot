@@ -7,6 +7,9 @@ public class PlayerStatsRewindedApricot : MonoBehaviour
     [SerializeField] private int _vidaMaxima = 100;
     [SerializeField] private Image _barra;
 
+    [SerializeField] private int _keysCollected = 0;
+
+
     [SerializeField] private GameManagerRewindedApricot _gameManager;
 
     public void RestarVida(int daño)
@@ -23,6 +26,11 @@ public class PlayerStatsRewindedApricot : MonoBehaviour
         {
             _puntosVidaActuales = _vidaMaxima;
         }
+    }
+
+    public void CollectKeys(int keys)
+    {
+        _keysCollected += keys;
     }
 
     private void Update()

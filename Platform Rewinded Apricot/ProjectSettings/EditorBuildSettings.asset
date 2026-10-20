@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Rewind (JJGA)/Escenas/Main Menu Rewinded Apricot.unity
+    guid: 8a0a5f29527ba404680bfa23a66a9e60
+  - enabled: 1
     path: Assets/Rewind (JJGA)/Escenas/Platformer Level 1 (JJGA).unity
     guid: d4508b8a99e3040458b5a9f7abaf1d79
   m_configObjects:

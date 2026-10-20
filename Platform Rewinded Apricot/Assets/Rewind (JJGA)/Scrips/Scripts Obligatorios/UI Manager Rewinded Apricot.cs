@@ -8,6 +8,7 @@ public class UIManagerRewindedApricot : MonoBehaviour
     [SerializeField] private GameManagerRewindedApricot _gameManager;
     [SerializeField] private GameObject _panelDefeat;
     [SerializeField] private GameObject _panelVictory;
+    [SerializeField] private GameObject _KeySlot;
 
     public void SumarFillAmount(float amount)
     {
@@ -35,4 +36,11 @@ public class UIManagerRewindedApricot : MonoBehaviour
         }
 
     }
+
+    public void ActivarSprite()
+    {
+        _KeySlot.SetActive(true);
+    }
+
+
 }
