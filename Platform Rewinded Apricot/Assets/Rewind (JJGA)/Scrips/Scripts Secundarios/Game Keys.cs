@@ -9,12 +9,12 @@ public class GameKeys : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D colision)
     {
-        if (colision.gameObject.tag == "Player")
+        if (colision.gameObject.CompareTag("Player"))
         {
             _Keys.SetActive(false);
             _KeySlots.ActivarSprite();
             _Playerstats.CollectKeys(1);
         }
-   
     }
+
 }

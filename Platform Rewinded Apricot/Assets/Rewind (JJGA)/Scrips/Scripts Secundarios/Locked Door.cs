@@ -1,16 +1,18 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LockedDoor : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private PlayerStatsRewindedApricot _playerStats;
+    [SerializeField] private GameObject _door;
 
-    // Update is called once per frame
-    void Update()
+
+    private void OnCollisionEnter2D(Collision2D colision)
     {
-        
+        if (_playerStats._keysCollected == 3)
+        {
+            _door.SetActive(false);
+        }
+
     }
 }

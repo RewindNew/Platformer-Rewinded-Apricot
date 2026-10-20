@@ -5,10 +5,6 @@ using UnityEngine.Tilemaps;
 
 public class GameManagerRewindedApricot : MonoBehaviour
 {
-
-    [SerializeField] private PlayerStatsRewindedApricot _playerStats;
-    [SerializeField] private Tilemap _door;
-
     private void Start()
     {
         ReanudarElJuego();
@@ -33,6 +29,7 @@ public class GameManagerRewindedApricot : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+
 
 
 }

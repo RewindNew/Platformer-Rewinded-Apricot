@@ -9,6 +9,7 @@ public class UIManagerRewindedApricot : MonoBehaviour
     [SerializeField] private GameObject _panelDefeat;
     [SerializeField] private GameObject _panelVictory;
     [SerializeField] private GameObject _KeySlot;
+   
 
     public void SumarFillAmount(float amount)
     {
@@ -29,7 +30,7 @@ public class UIManagerRewindedApricot : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D colision)
     {
-        if (colision.gameObject.tag == "Player")
+        if (colision.gameObject.CompareTag("Player"))
         {
             _gameManager.PausarElJuego();
             _panelVictory.SetActive(true);
@@ -41,6 +42,7 @@ public class UIManagerRewindedApricot : MonoBehaviour
     {
         _KeySlot.SetActive(true);
     }
+
 
 
 }
