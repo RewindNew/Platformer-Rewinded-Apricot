@@ -2,7 +2,7 @@
 - Project name: Platform Rewinded Apricot
 - Unity version: Unity 6000.3.25f1
 - Active game object:
-  - Name: Tilemap Key 3
-  - Tag: Untagged
+  - Name: Player Level 1 (AKA Sammy)
+  - Tag: Player
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
