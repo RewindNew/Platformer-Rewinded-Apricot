@@ -220,6 +220,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9057029}
   - component: {fileID: 9057030}
+  - component: {fileID: 9057032}
+  - component: {fileID: 9057031}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (24)'
   m_TagString: Untagged
@@ -301,6 +303,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &9057031
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057028}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &9057032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &15002471
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +364,8 @@ GameObject:
   m_Component:
   - component: {fileID: 15002473}
   - component: {fileID: 15002472}
+  - component: {fileID: 15002475}
+  - component: {fileID: 15002474}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (21)'
   m_TagString: Untagged
@@ -392,6 +447,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &15002474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15002471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &15002475
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15002471}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &21483289
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +886,8 @@ GameObject:
   m_Component:
   - component: {fileID: 36828607}
   - component: {fileID: 36828608}
+  - component: {fileID: 36828610}
+  - component: {fileID: 36828609}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (40)'
   m_TagString: Untagged
@@ -861,6 +969,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &36828609
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36828606}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &36828610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36828606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &43766630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1809,8 @@ GameObject:
   m_Component:
   - component: {fileID: 75141890}
   - component: {fileID: 75141891}
+  - component: {fileID: 75141893}
+  - component: {fileID: 75141892}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (2)'
   m_TagString: Untagged
@@ -1731,6 +1892,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &75141892
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75141889}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &75141893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75141889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &81968664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,6 +1953,8 @@ GameObject:
   m_Component:
   - component: {fileID: 81968665}
   - component: {fileID: 81968666}
+  - component: {fileID: 81968668}
+  - component: {fileID: 81968667}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (2)'
   m_TagString: Untagged
@@ -1822,6 +2036,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &81968667
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81968664}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &81968668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81968664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &100738772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,6 +2279,8 @@ GameObject:
   m_Component:
   - component: {fileID: 109759220}
   - component: {fileID: 109759219}
+  - component: {fileID: 109759222}
+  - component: {fileID: 109759221}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (5)'
   m_TagString: Untagged
@@ -2095,6 +2362,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &109759221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109759218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &109759222
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109759218}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &110332260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,6 +2787,8 @@ GameObject:
   m_Component:
   - component: {fileID: 126457293}
   - component: {fileID: 126457294}
+  - component: {fileID: 126457296}
+  - component: {fileID: 126457295}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (1)'
   m_TagString: Untagged
@@ -2550,6 +2870,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &126457295
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126457292}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &126457296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126457292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &149020529
 GameObject:
   m_ObjectHideFlags: 0
@@ -3015,6 +3386,8 @@ GameObject:
   m_Component:
   - component: {fileID: 175307874}
   - component: {fileID: 175307875}
+  - component: {fileID: 175307877}
+  - component: {fileID: 175307876}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (26)'
   m_TagString: Untagged
@@ -3096,6 +3469,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &175307876
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175307873}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &175307877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175307873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &210825708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3106,6 +3530,8 @@ GameObject:
   m_Component:
   - component: {fileID: 210825710}
   - component: {fileID: 210825709}
+  - component: {fileID: 210825712}
+  - component: {fileID: 210825711}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (9)'
   m_TagString: Untagged
@@ -3187,6 +3613,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &210825711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210825708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &210825712
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210825708}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &213507240
 GameObject:
   m_ObjectHideFlags: 0
@@ -3230,6 +3707,8 @@ GameObject:
   m_Component:
   - component: {fileID: 221226233}
   - component: {fileID: 221226234}
+  - component: {fileID: 221226236}
+  - component: {fileID: 221226235}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (42)'
   m_TagString: Untagged
@@ -3311,6 +3790,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &221226235
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221226232}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &221226236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221226232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &223634749
 GameObject:
   m_ObjectHideFlags: 0
@@ -3412,6 +3942,8 @@ GameObject:
   m_Component:
   - component: {fileID: 228476222}
   - component: {fileID: 228476221}
+  - component: {fileID: 228476224}
+  - component: {fileID: 228476223}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (6)'
   m_TagString: Untagged
@@ -3493,6 +4025,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &228476223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228476220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &228476224
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228476220}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &228695697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,6 +4086,8 @@ GameObject:
   m_Component:
   - component: {fileID: 228695698}
   - component: {fileID: 228695699}
+  - component: {fileID: 228695701}
+  - component: {fileID: 228695700}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (39)'
   m_TagString: Untagged
@@ -3584,6 +4169,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &228695700
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228695697}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &228695701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228695697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &237979365
 GameObject:
   m_ObjectHideFlags: 0
@@ -3594,6 +4230,8 @@ GameObject:
   m_Component:
   - component: {fileID: 237979366}
   - component: {fileID: 237979367}
+  - component: {fileID: 237979369}
+  - component: {fileID: 237979368}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (-5)'
   m_TagString: Untagged
@@ -3675,6 +4313,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &237979368
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237979365}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &237979369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237979365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &238412803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,6 +4631,8 @@ GameObject:
   m_Component:
   - component: {fileID: 257395665}
   - component: {fileID: 257395666}
+  - component: {fileID: 257395668}
+  - component: {fileID: 257395667}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (-6)'
   m_TagString: Untagged
@@ -4023,6 +4714,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &257395667
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257395664}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &257395668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257395664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &260078634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4033,6 +4775,8 @@ GameObject:
   m_Component:
   - component: {fileID: 260078635}
   - component: {fileID: 260078636}
+  - component: {fileID: 260078638}
+  - component: {fileID: 260078637}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (18)'
   m_TagString: Untagged
@@ -4114,6 +4858,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &260078637
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260078634}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &260078638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260078634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &265325853
 GameObject:
   m_ObjectHideFlags: 0
@@ -4397,6 +5192,8 @@ GameObject:
   m_Component:
   - component: {fileID: 286036171}
   - component: {fileID: 286036172}
+  - component: {fileID: 286036174}
+  - component: {fileID: 286036173}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (37)'
   m_TagString: Untagged
@@ -4478,6 +5275,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &286036173
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286036170}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &286036174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286036170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &290510884
 GameObject:
   m_ObjectHideFlags: 0
@@ -4670,6 +5518,8 @@ GameObject:
   m_Component:
   - component: {fileID: 294390682}
   - component: {fileID: 294390683}
+  - component: {fileID: 294390685}
+  - component: {fileID: 294390684}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (19)'
   m_TagString: Untagged
@@ -4751,6 +5601,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &294390684
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294390681}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &294390685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294390681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &300959051
 GameObject:
   m_ObjectHideFlags: 0
@@ -4761,6 +5662,8 @@ GameObject:
   m_Component:
   - component: {fileID: 300959052}
   - component: {fileID: 300959053}
+  - component: {fileID: 300959055}
+  - component: {fileID: 300959054}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (13)'
   m_TagString: Untagged
@@ -4842,6 +5745,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &300959054
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300959051}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &300959055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300959051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &302195553
 GameObject:
   m_ObjectHideFlags: 0
@@ -4943,6 +5897,8 @@ GameObject:
   m_Component:
   - component: {fileID: 302335786}
   - component: {fileID: 302335785}
+  - component: {fileID: 302335788}
+  - component: {fileID: 302335787}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (22)'
   m_TagString: Untagged
@@ -5024,6 +5980,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &302335787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302335784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &302335788
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302335784}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &330319231
 GameObject:
   m_ObjectHideFlags: 0
@@ -5216,6 +6223,8 @@ GameObject:
   m_Component:
   - component: {fileID: 340279413}
   - component: {fileID: 340279414}
+  - component: {fileID: 340279416}
+  - component: {fileID: 340279415}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (12)'
   m_TagString: Untagged
@@ -5297,6 +6306,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &340279415
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340279412}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &340279416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340279412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &341499950
 GameObject:
   m_ObjectHideFlags: 0
@@ -5489,6 +6549,8 @@ GameObject:
   m_Component:
   - component: {fileID: 350843383}
   - component: {fileID: 350843382}
+  - component: {fileID: 350843385}
+  - component: {fileID: 350843384}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (1)'
   m_TagString: Untagged
@@ -5570,6 +6632,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &350843384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350843381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &350843385
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350843381}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &352970601
 GameObject:
   m_ObjectHideFlags: 0
@@ -5580,6 +6693,8 @@ GameObject:
   m_Component:
   - component: {fileID: 352970602}
   - component: {fileID: 352970603}
+  - component: {fileID: 352970605}
+  - component: {fileID: 352970604}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (-1)'
   m_TagString: Untagged
@@ -5661,6 +6776,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &352970604
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352970601}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &352970605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352970601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &354129711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5944,6 +7110,8 @@ GameObject:
   m_Component:
   - component: {fileID: 378713707}
   - component: {fileID: 378713706}
+  - component: {fileID: 378713709}
+  - component: {fileID: 378713708}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (37)'
   m_TagString: Untagged
@@ -6025,6 +7193,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &378713708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378713705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &378713709
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378713705}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &397642875
 GameObject:
   m_ObjectHideFlags: 0
@@ -91580,6 +92799,8 @@ GameObject:
   m_Component:
   - component: {fileID: 404129251}
   - component: {fileID: 404129250}
+  - component: {fileID: 404129253}
+  - component: {fileID: 404129252}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (10)'
   m_TagString: Untagged
@@ -91661,6 +92882,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &404129252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404129249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &404129253
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404129249}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &407433502
 GameObject:
   m_ObjectHideFlags: 0
@@ -91853,6 +93125,8 @@ GameObject:
   m_Component:
   - component: {fileID: 408530075}
   - component: {fileID: 408530076}
+  - component: {fileID: 408530078}
+  - component: {fileID: 408530077}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (27)'
   m_TagString: Untagged
@@ -91934,6 +93208,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &408530077
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408530074}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &408530078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408530074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &413033405
 GameObject:
   m_ObjectHideFlags: 0
@@ -92035,6 +93360,8 @@ GameObject:
   m_Component:
   - component: {fileID: 420678998}
   - component: {fileID: 420678999}
+  - component: {fileID: 420679001}
+  - component: {fileID: 420679000}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (-2)'
   m_TagString: Untagged
@@ -92116,6 +93443,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &420679000
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420678997}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &420679001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420678997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &429097542
 GameObject:
   m_ObjectHideFlags: 0
@@ -92205,6 +93583,8 @@ GameObject:
   m_Component:
   - component: {fileID: 465042707}
   - component: {fileID: 465042706}
+  - component: {fileID: 465042709}
+  - component: {fileID: 465042708}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (24)'
   m_TagString: Untagged
@@ -92286,6 +93666,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &465042708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465042705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &465042709
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465042705}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &471669584
 GameObject:
   m_ObjectHideFlags: 0
@@ -92296,6 +93727,8 @@ GameObject:
   m_Component:
   - component: {fileID: 471669585}
   - component: {fileID: 471669586}
+  - component: {fileID: 471669588}
+  - component: {fileID: 471669587}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (36)'
   m_TagString: Untagged
@@ -92377,6 +93810,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &471669587
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471669584}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &471669588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471669584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &476456055
 GameObject:
   m_ObjectHideFlags: 0
@@ -92842,6 +94326,8 @@ GameObject:
   m_Component:
   - component: {fileID: 499735381}
   - component: {fileID: 499735382}
+  - component: {fileID: 499735384}
+  - component: {fileID: 499735383}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (35)'
   m_TagString: Untagged
@@ -92923,6 +94409,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &499735383
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499735380}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &499735384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499735380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &517802979
 GameObject:
   m_ObjectHideFlags: 0
@@ -93115,6 +94652,8 @@ GameObject:
   m_Component:
   - component: {fileID: 524960505}
   - component: {fileID: 524960504}
+  - component: {fileID: 524960507}
+  - component: {fileID: 524960506}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (12)'
   m_TagString: Untagged
@@ -93196,6 +94735,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &524960506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524960503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &524960507
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524960503}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &526709804
 GameObject:
   m_ObjectHideFlags: 0
@@ -93420,6 +95010,8 @@ GameObject:
   m_Component:
   - component: {fileID: 538117816}
   - component: {fileID: 538117817}
+  - component: {fileID: 538117819}
+  - component: {fileID: 538117818}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (8)'
   m_TagString: Untagged
@@ -93501,6 +95093,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &538117818
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538117815}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &538117819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538117815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &543799951
 GameObject:
   m_ObjectHideFlags: 0
@@ -93708,6 +95351,8 @@ GameObject:
   m_Component:
   - component: {fileID: 554427763}
   - component: {fileID: 554427762}
+  - component: {fileID: 554427765}
+  - component: {fileID: 554427764}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (7)'
   m_TagString: Untagged
@@ -93789,6 +95434,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &554427764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554427761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &554427765
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554427761}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &561803616
 GameObject:
   m_ObjectHideFlags: 0
@@ -94295,6 +95991,8 @@ GameObject:
   m_Component:
   - component: {fileID: 604403501}
   - component: {fileID: 604403502}
+  - component: {fileID: 604403504}
+  - component: {fileID: 604403503}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (25)'
   m_TagString: Untagged
@@ -94376,6 +96074,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &604403503
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604403500}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &604403504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604403500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &607372419
 GameObject:
   m_ObjectHideFlags: 0
@@ -94490,7 +96239,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 9
-      m_TileSpriteIndex: 9
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -94500,7 +96249,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 8
-      m_TileSpriteIndex: 8
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -94549,12 +96298,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 5306273687827309364, guid: e2a316fc302da814fbe8d5d2833544bb, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 3673837408273292052, guid: 089ae4c746dacb44888565e998cd6309, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -4364816134403145360, guid: 8871e919c50128f4f87fb12d59630720, type: 3}
   m_TileMatrixArray:
@@ -94666,6 +96415,8 @@ GameObject:
   m_Component:
   - component: {fileID: 614453537}
   - component: {fileID: 614453536}
+  - component: {fileID: 614453539}
+  - component: {fileID: 614453538}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (20)'
   m_TagString: Untagged
@@ -94747,6 +96498,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &614453538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614453535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &614453539
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614453535}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &619270366
 GameObject:
   m_ObjectHideFlags: 0
@@ -95028,6 +96830,8 @@ GameObject:
   m_Component:
   - component: {fileID: 659764536}
   - component: {fileID: 659764537}
+  - component: {fileID: 659764539}
+  - component: {fileID: 659764538}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (0)'
   m_TagString: Untagged
@@ -95109,6 +96913,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &659764538
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659764535}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &659764539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659764535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &662796486
 GameObject:
   m_ObjectHideFlags: 0
@@ -95483,6 +97338,8 @@ GameObject:
   m_Component:
   - component: {fileID: 685598216}
   - component: {fileID: 685598215}
+  - component: {fileID: 685598218}
+  - component: {fileID: 685598217}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (28)'
   m_TagString: Untagged
@@ -95564,6 +97421,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &685598217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685598214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &685598218
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685598214}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &694012282
 GameObject:
   m_ObjectHideFlags: 0
@@ -95938,6 +97846,8 @@ GameObject:
   m_Component:
   - component: {fileID: 719255954}
   - component: {fileID: 719255955}
+  - component: {fileID: 719255957}
+  - component: {fileID: 719255956}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (21)'
   m_TagString: Untagged
@@ -96019,6 +97929,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &719255956
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719255953}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &719255957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719255953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &723884086
 GameObject:
   m_ObjectHideFlags: 0
@@ -96377,6 +98338,8 @@ GameObject:
   m_Component:
   - component: {fileID: 741006556}
   - component: {fileID: 741006555}
+  - component: {fileID: 741006558}
+  - component: {fileID: 741006557}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (14)'
   m_TagString: Untagged
@@ -96458,6 +98421,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &741006557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741006554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &741006558
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741006554}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &742925919
 GameObject:
   m_ObjectHideFlags: 0
@@ -96559,6 +98573,8 @@ GameObject:
   m_Component:
   - component: {fileID: 746524525}
   - component: {fileID: 746524524}
+  - component: {fileID: 746524527}
+  - component: {fileID: 746524526}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (23)'
   m_TagString: Untagged
@@ -96640,6 +98656,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &746524526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746524523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &746524527
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746524523}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &752913768
 GameObject:
   m_ObjectHideFlags: 0
@@ -97105,6 +99172,8 @@ GameObject:
   m_Component:
   - component: {fileID: 818754384}
   - component: {fileID: 818754385}
+  - component: {fileID: 818754387}
+  - component: {fileID: 818754386}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (32)'
   m_TagString: Untagged
@@ -97186,6 +99255,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &818754386
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818754383}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &818754387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818754383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &823580996
 GameObject:
   m_ObjectHideFlags: 0
@@ -97196,6 +99316,8 @@ GameObject:
   m_Component:
   - component: {fileID: 823580997}
   - component: {fileID: 823580998}
+  - component: {fileID: 823581000}
+  - component: {fileID: 823580999}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (28)'
   m_TagString: Untagged
@@ -97277,6 +99399,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &823580999
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823580996}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &823581000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823580996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &830552865
 GameObject:
   m_ObjectHideFlags: 0
@@ -97287,6 +99460,8 @@ GameObject:
   m_Component:
   - component: {fileID: 830552866}
   - component: {fileID: 830552867}
+  - component: {fileID: 830552869}
+  - component: {fileID: 830552868}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (34)'
   m_TagString: Untagged
@@ -97368,6 +99543,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &830552868
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830552865}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &830552869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830552865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &833635911
 GameObject:
   m_ObjectHideFlags: 0
@@ -97786,6 +100012,8 @@ GameObject:
   m_Component:
   - component: {fileID: 891221481}
   - component: {fileID: 891221480}
+  - component: {fileID: 891221483}
+  - component: {fileID: 891221482}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (16)'
   m_TagString: Untagged
@@ -97867,6 +100095,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &891221482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891221479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &891221483
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891221479}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &891555100
 GameObject:
   m_ObjectHideFlags: 0
@@ -98423,6 +100702,8 @@ GameObject:
   m_Component:
   - component: {fileID: 931756341}
   - component: {fileID: 931756342}
+  - component: {fileID: 931756344}
+  - component: {fileID: 931756343}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (15)'
   m_TagString: Untagged
@@ -98504,6 +100785,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &931756343
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931756340}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &931756344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931756340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &935962954
 GameObject:
   m_ObjectHideFlags: 0
@@ -98969,6 +101301,8 @@ GameObject:
   m_Component:
   - component: {fileID: 968975317}
   - component: {fileID: 968975316}
+  - component: {fileID: 968975319}
+  - component: {fileID: 968975318}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (36)'
   m_TagString: Untagged
@@ -99050,6 +101384,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &968975318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968975315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &968975319
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968975315}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &971234262
 GameObject:
   m_ObjectHideFlags: 0
@@ -99151,6 +101536,8 @@ GameObject:
   m_Component:
   - component: {fileID: 971542500}
   - component: {fileID: 971542499}
+  - component: {fileID: 971542502}
+  - component: {fileID: 971542501}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (15)'
   m_TagString: Untagged
@@ -99232,6 +101619,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &971542501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971542498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &971542502
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971542498}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &979296500
 GameObject:
   m_ObjectHideFlags: 0
@@ -99424,6 +101862,8 @@ GameObject:
   m_Component:
   - component: {fileID: 991367002}
   - component: {fileID: 991367003}
+  - component: {fileID: 991367005}
+  - component: {fileID: 991367004}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (43)'
   m_TagString: Untagged
@@ -99505,6 +101945,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &991367004
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991367001}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &991367005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991367001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &992541056
 GameObject:
   m_ObjectHideFlags: 0
@@ -99606,6 +102097,8 @@ GameObject:
   m_Component:
   - component: {fileID: 992803631}
   - component: {fileID: 992803630}
+  - component: {fileID: 992803633}
+  - component: {fileID: 992803632}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (3)'
   m_TagString: Untagged
@@ -99687,6 +102180,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992803632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992803629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &992803633
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992803629}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &995927330
 GameObject:
   m_ObjectHideFlags: 0
@@ -99788,6 +102332,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1004806852}
   - component: {fileID: 1004806853}
+  - component: {fileID: 1004806855}
+  - component: {fileID: 1004806854}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (14)'
   m_TagString: Untagged
@@ -99869,6 +102415,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1004806854
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004806851}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1004806855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004806851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1007906814
 GameObject:
   m_ObjectHideFlags: 0
@@ -100993,6 +103590,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1063109924}
   - component: {fileID: 1063109925}
+  - component: {fileID: 1063109927}
+  - component: {fileID: 1063109926}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (5)'
   m_TagString: Untagged
@@ -101074,6 +103673,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1063109926
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063109923}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1063109927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063109923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1066012889
 GameObject:
   m_ObjectHideFlags: 0
@@ -101159,6 +103809,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1068149302}
   - component: {fileID: 1068149303}
+  - component: {fileID: 1068149305}
+  - component: {fileID: 1068149304}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (23)'
   m_TagString: Untagged
@@ -101240,6 +103892,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1068149304
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068149301}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1068149305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068149301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1075570604
 GameObject:
   m_ObjectHideFlags: 0
@@ -101808,6 +104511,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1098925941}
   - component: {fileID: 1098925940}
+  - component: {fileID: 1098925943}
+  - component: {fileID: 1098925942}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (8)'
   m_TagString: Untagged
@@ -101889,6 +104594,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1098925942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098925939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1098925943
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098925939}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1100703893
 GameObject:
   m_ObjectHideFlags: 0
@@ -102081,6 +104837,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1118883918}
   - component: {fileID: 1118883917}
+  - component: {fileID: 1118883920}
+  - component: {fileID: 1118883919}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (32)'
   m_TagString: Untagged
@@ -102162,6 +104920,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1118883919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118883916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1118883920
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118883916}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1120041931
 GameObject:
   m_ObjectHideFlags: 0
@@ -102937,6 +105746,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1147465427}
   - component: {fileID: 1147465426}
+  - component: {fileID: 1147465429}
+  - component: {fileID: 1147465428}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (2)'
   m_TagString: Untagged
@@ -103018,6 +105829,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1147465428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147465425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1147465429
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147465425}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1156716683
 GameObject:
   m_ObjectHideFlags: 0
@@ -103301,6 +106163,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1157523228}
   - component: {fileID: 1157523229}
+  - component: {fileID: 1157523231}
+  - component: {fileID: 1157523230}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (33)'
   m_TagString: Untagged
@@ -103382,6 +106246,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1157523230
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157523227}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1157523231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157523227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1159212817
 GameObject:
   m_ObjectHideFlags: 0
@@ -103483,6 +106398,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1173532305}
   - component: {fileID: 1173532304}
+  - component: {fileID: 1173532307}
+  - component: {fileID: 1173532306}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (4)'
   m_TagString: Untagged
@@ -103564,6 +106481,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1173532306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173532303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1173532307
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173532303}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1180061327
 GameObject:
   m_ObjectHideFlags: 0
@@ -103763,6 +106731,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1185440444}
   - component: {fileID: 1185440445}
+  - component: {fileID: 1185440447}
+  - component: {fileID: 1185440446}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (16)'
   m_TagString: Untagged
@@ -103844,6 +106814,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1185440446
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185440443}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1185440447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185440443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1194089913
 GameObject:
   m_ObjectHideFlags: 0
@@ -107237,6 +110258,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1200513770}
   - component: {fileID: 1200513771}
+  - component: {fileID: 1200513773}
+  - component: {fileID: 1200513772}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (7)'
   m_TagString: Untagged
@@ -107318,6 +110341,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1200513772
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200513769}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1200513773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200513769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1212920710
 GameObject:
   m_ObjectHideFlags: 0
@@ -107328,6 +110402,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1212920712}
   - component: {fileID: 1212920711}
+  - component: {fileID: 1212920714}
+  - component: {fileID: 1212920713}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (18)'
   m_TagString: Untagged
@@ -107409,6 +110485,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1212920713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212920710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1212920714
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212920710}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1214307102
 GameObject:
   m_ObjectHideFlags: 0
@@ -107601,6 +110728,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1216244959}
   - component: {fileID: 1216244958}
+  - component: {fileID: 1216244961}
+  - component: {fileID: 1216244960}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (35)'
   m_TagString: Untagged
@@ -107682,6 +110811,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1216244960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216244957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1216244961
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216244957}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1219445771
 GameObject:
   m_ObjectHideFlags: 0
@@ -107875,6 +111055,8 @@ GameObject:
   - component: {fileID: 1232797601}
   - component: {fileID: 1232797602}
   - component: {fileID: 1232797603}
+  - component: {fileID: 1232797605}
+  - component: {fileID: 1232797604}
   m_Layer: 0
   m_Name: 'Enemies: harms way (1)'
   m_TagString: Untagged
@@ -107994,6 +111176,56 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1232797604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232797600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!58 &1232797605
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232797600}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.000000029802322}
+  m_Radius: 0.255
 --- !u!1 &1236472989
 GameObject:
   m_ObjectHideFlags: 0
@@ -108118,6 +111350,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1240837079}
   - component: {fileID: 1240837080}
+  - component: {fileID: 1240837082}
+  - component: {fileID: 1240837081}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (4)'
   m_TagString: Untagged
@@ -108199,6 +111433,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1240837081
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240837078}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1240837082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240837078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1243442758
 GameObject:
   m_ObjectHideFlags: 0
@@ -108209,6 +111494,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1243442759}
   - component: {fileID: 1243442760}
+  - component: {fileID: 1243442762}
+  - component: {fileID: 1243442761}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (50)'
   m_TagString: Untagged
@@ -108290,6 +111577,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1243442761
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243442758}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1243442762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243442758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1266266925
 GameObject:
   m_ObjectHideFlags: 0
@@ -148274,6 +151612,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1267699220}
   - component: {fileID: 1267699219}
+  - component: {fileID: 1267699222}
+  - component: {fileID: 1267699221}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (27)'
   m_TagString: Untagged
@@ -148355,6 +151695,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1267699221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267699218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1267699222
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267699218}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1296480661
 GameObject:
   m_ObjectHideFlags: 0
@@ -148729,6 +152120,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1380916795}
   - component: {fileID: 1380916796}
+  - component: {fileID: 1380916798}
+  - component: {fileID: 1380916797}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (17)'
   m_TagString: Untagged
@@ -148810,6 +152203,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1380916797
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380916794}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1380916798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380916794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1388761354
 GameObject:
   m_ObjectHideFlags: 0
@@ -149126,6 +152570,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1416191862}
   - component: {fileID: 1416191863}
+  - component: {fileID: 1416191865}
+  - component: {fileID: 1416191864}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (22)'
   m_TagString: Untagged
@@ -149207,6 +152653,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1416191864
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416191861}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1416191865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416191861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1419211417
 GameObject:
   m_ObjectHideFlags: 0
@@ -149308,6 +152805,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1422381500}
   - component: {fileID: 1422381501}
+  - component: {fileID: 1422381503}
+  - component: {fileID: 1422381502}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (-4)'
   m_TagString: Untagged
@@ -149389,6 +152888,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1422381502
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422381499}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1422381503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422381499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1423624978
 GameObject:
   m_ObjectHideFlags: 0
@@ -149399,6 +152949,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1423624979}
   - component: {fileID: 1423624980}
+  - component: {fileID: 1423624982}
+  - component: {fileID: 1423624981}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (3)'
   m_TagString: Untagged
@@ -149480,6 +153032,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1423624981
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423624978}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1423624982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423624978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1424013207
 GameObject:
   m_ObjectHideFlags: 0
@@ -149672,6 +153275,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1434792044}
   - component: {fileID: 1434792045}
+  - component: {fileID: 1434792047}
+  - component: {fileID: 1434792046}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (6)'
   m_TagString: Untagged
@@ -149753,6 +153358,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1434792046
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434792043}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1434792047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434792043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1446263000
 GameObject:
   m_ObjectHideFlags: 0
@@ -149854,6 +153510,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1448172878}
   - component: {fileID: 1448172879}
+  - component: {fileID: 1448172881}
+  - component: {fileID: 1448172880}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (1)'
   m_TagString: Untagged
@@ -149935,6 +153593,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1448172880
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448172877}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1448172881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448172877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1450045412
 GameObject:
   m_ObjectHideFlags: 0
@@ -150267,6 +153976,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1478057284}
   - component: {fileID: 1478057283}
+  - component: {fileID: 1478057286}
+  - component: {fileID: 1478057285}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (25)'
   m_TagString: Untagged
@@ -150348,6 +154059,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1478057285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478057282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1478057286
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478057282}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1482079011
 GameObject:
   m_ObjectHideFlags: 0
@@ -150449,6 +154211,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1498826096}
   - component: {fileID: 1498826097}
+  - component: {fileID: 1498826099}
+  - component: {fileID: 1498826098}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (41)'
   m_TagString: Untagged
@@ -150530,6 +154294,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1498826098
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498826095}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1498826099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498826095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1513897054
 GameObject:
   m_ObjectHideFlags: 0
@@ -150756,6 +154571,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1519882428}
   - component: {fileID: 1519882429}
+  - component: {fileID: 1519882431}
+  - component: {fileID: 1519882430}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (47)'
   m_TagString: Untagged
@@ -150837,6 +154654,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1519882430
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519882427}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1519882431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519882427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1527162085
 GameObject:
   m_ObjectHideFlags: 0
@@ -151575,6 +155443,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1566789127}
   - component: {fileID: 1566789128}
+  - component: {fileID: 1566789130}
+  - component: {fileID: 1566789129}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (44)'
   m_TagString: Untagged
@@ -151656,6 +155526,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1566789129
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566789126}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1566789130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566789126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1567358325
 GameObject:
   m_ObjectHideFlags: 0
@@ -151939,6 +155860,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1572418924}
   - component: {fileID: 1572418923}
+  - component: {fileID: 1572418926}
+  - component: {fileID: 1572418925}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (13)'
   m_TagString: Untagged
@@ -152020,6 +155943,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1572418925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572418922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1572418926
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572418922}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1583377686
 GameObject:
   m_ObjectHideFlags: 0
@@ -152196,6 +156170,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1609148939}
   - component: {fileID: 1609148940}
+  - component: {fileID: 1609148942}
+  - component: {fileID: 1609148941}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (30)'
   m_TagString: Untagged
@@ -152277,6 +156253,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1609148941
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609148938}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1609148942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609148938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1611378222
 GameObject:
   m_ObjectHideFlags: 0
@@ -152742,6 +156769,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1641400307}
   - component: {fileID: 1641400308}
+  - component: {fileID: 1641400310}
+  - component: {fileID: 1641400309}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (9)'
   m_TagString: Untagged
@@ -152823,6 +156852,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1641400309
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641400306}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1641400310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641400306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1647883054
 GameObject:
   m_ObjectHideFlags: 0
@@ -152924,6 +157004,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1654671717}
   - component: {fileID: 1654671716}
+  - component: {fileID: 1654671719}
+  - component: {fileID: 1654671718}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (11)'
   m_TagString: Untagged
@@ -153005,6 +157087,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1654671718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654671715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1654671719
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654671715}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1657145316
 GameObject:
   m_ObjectHideFlags: 0
@@ -153015,6 +157148,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1657145317}
   - component: {fileID: 1657145318}
+  - component: {fileID: 1657145320}
+  - component: {fileID: 1657145319}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (5)'
   m_TagString: Untagged
@@ -153096,6 +157231,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1657145319
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657145316}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1657145320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657145316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1658260175
 GameObject:
   m_ObjectHideFlags: 0
@@ -153834,6 +158020,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1727111122}
   - component: {fileID: 1727111123}
+  - component: {fileID: 1727111125}
+  - component: {fileID: 1727111124}
   m_Layer: 0
   m_Name: 'Enemies: harms way (2)'
   m_TagString: Untagged
@@ -153915,6 +158103,56 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1727111124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727111121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!58 &1727111125
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727111121}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.011854029, y: -0.0385772}
+  m_Radius: 0.1943759
 --- !u!1 &1727128425
 GameObject:
   m_ObjectHideFlags: 0
@@ -154016,6 +158254,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1728695802}
   - component: {fileID: 1728695803}
+  - component: {fileID: 1728695805}
+  - component: {fileID: 1728695804}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (31)'
   m_TagString: Untagged
@@ -154097,6 +158337,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1728695804
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728695801}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1728695805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728695801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1728739390
 GameObject:
   m_ObjectHideFlags: 0
@@ -154107,6 +158398,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1728739391}
   - component: {fileID: 1728739392}
+  - component: {fileID: 1728739394}
+  - component: {fileID: 1728739393}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (45)'
   m_TagString: Untagged
@@ -154188,6 +158481,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1728739393
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728739390}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1728739394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728739390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1737872827
 GameObject:
   m_ObjectHideFlags: 0
@@ -154471,6 +158815,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1754843220}
   - component: {fileID: 1754843221}
+  - component: {fileID: 1754843223}
+  - component: {fileID: 1754843222}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (29)'
   m_TagString: Untagged
@@ -154552,6 +158898,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1754843222
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754843219}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1754843223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754843219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1760877328
 GameObject:
   m_ObjectHideFlags: 0
@@ -154562,6 +158959,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1760877329}
   - component: {fileID: 1760877330}
+  - component: {fileID: 1760877332}
+  - component: {fileID: 1760877331}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (11)'
   m_TagString: Untagged
@@ -154643,6 +159042,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1760877331
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760877328}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1760877332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760877328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1771631119
 GameObject:
   m_ObjectHideFlags: 0
@@ -154653,6 +159103,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1771631120}
   - component: {fileID: 1771631121}
+  - component: {fileID: 1771631123}
+  - component: {fileID: 1771631122}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (4)'
   m_TagString: Untagged
@@ -154734,6 +159186,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1771631122
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771631119}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1771631123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771631119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1771727152
 GameObject:
   m_ObjectHideFlags: 0
@@ -154744,6 +159247,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1771727153}
   - component: {fileID: 1771727154}
+  - component: {fileID: 1771727156}
+  - component: {fileID: 1771727155}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (48)'
   m_TagString: Untagged
@@ -154825,6 +159330,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1771727155
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771727152}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1771727156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771727152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1776202278
 GameObject:
   m_ObjectHideFlags: 0
@@ -154835,6 +159391,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1776202279}
   - component: {fileID: 1776202280}
+  - component: {fileID: 1776202282}
+  - component: {fileID: 1776202281}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (49)'
   m_TagString: Untagged
@@ -154916,6 +159474,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1776202281
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776202278}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1776202282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776202278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1776547132
 GameObject:
   m_ObjectHideFlags: 0
@@ -155017,6 +159626,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1787018066}
   - component: {fileID: 1787018067}
+  - component: {fileID: 1787018069}
+  - component: {fileID: 1787018068}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (-3)'
   m_TagString: Untagged
@@ -155098,6 +159709,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1787018068
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787018065}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1787018069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787018065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1788302709
 GameObject:
   m_ObjectHideFlags: 0
@@ -155654,6 +160316,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1808445911}
   - component: {fileID: 1808445910}
+  - component: {fileID: 1808445913}
+  - component: {fileID: 1808445912}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (26)'
   m_TagString: Untagged
@@ -155735,6 +160399,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1808445912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808445909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1808445913
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808445909}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1822126101
 GameObject:
   m_ObjectHideFlags: 0
@@ -155836,6 +160551,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1823209841}
   - component: {fileID: 1823209840}
+  - component: {fileID: 1823209843}
+  - component: {fileID: 1823209842}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (29)'
   m_TagString: Untagged
@@ -155917,6 +160634,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1823209842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823209839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1823209843
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823209839}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1829065643
 GameObject:
   m_ObjectHideFlags: 0
@@ -156382,6 +161150,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1867765309}
   - component: {fileID: 1867765308}
+  - component: {fileID: 1867765311}
+  - component: {fileID: 1867765310}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (17)'
   m_TagString: Untagged
@@ -156463,6 +161233,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1867765310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867765307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1867765311
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867765307}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1873064345
 GameObject:
   m_ObjectHideFlags: 0
@@ -156564,6 +161385,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1885203057}
   - component: {fileID: 1885203056}
+  - component: {fileID: 1885203059}
+  - component: {fileID: 1885203058}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (33)'
   m_TagString: Untagged
@@ -156645,6 +161468,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1885203058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885203055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1885203059
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885203055}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1892652720
 GameObject:
   m_ObjectHideFlags: 0
@@ -156655,6 +161529,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1892652722}
   - component: {fileID: 1892652721}
+  - component: {fileID: 1892652724}
+  - component: {fileID: 1892652723}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (19)'
   m_TagString: Untagged
@@ -156736,6 +161612,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1892652723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892652720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1892652724
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892652720}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1895252197
 GameObject:
   m_ObjectHideFlags: 0
@@ -157473,6 +162400,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1922830072}
   - component: {fileID: 1922830073}
+  - component: {fileID: 1922830075}
+  - component: {fileID: 1922830074}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (10)'
   m_TagString: Untagged
@@ -157554,6 +162483,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1922830074
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922830071}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1922830075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922830071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1923779321
 GameObject:
   m_ObjectHideFlags: 0
@@ -157874,6 +162854,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1941601255}
   - component: {fileID: 1941601254}
+  - component: {fileID: 1941601257}
+  - component: {fileID: 1941601256}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (30)'
   m_TagString: Untagged
@@ -157955,6 +162937,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1941601256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941601253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1941601257
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941601253}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1946106759
 GameObject:
   m_ObjectHideFlags: 0
@@ -157965,6 +162998,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1946106761}
   - component: {fileID: 1946106760}
+  - component: {fileID: 1946106763}
+  - component: {fileID: 1946106762}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (34)'
   m_TagString: Untagged
@@ -158046,6 +163081,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1946106762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946106759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &1946106763
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946106759}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &1947702451
 GameObject:
   m_ObjectHideFlags: 0
@@ -158056,6 +163142,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1947702452}
   - component: {fileID: 1947702453}
+  - component: {fileID: 1947702455}
+  - component: {fileID: 1947702454}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (6)'
   m_TagString: Untagged
@@ -158137,6 +163225,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &1947702454
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947702451}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &1947702455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947702451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &1958964276
 GameObject:
   m_ObjectHideFlags: 0
@@ -161273,6 +166412,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2009064804}
   - component: {fileID: 2009064805}
+  - component: {fileID: 2009064807}
+  - component: {fileID: 2009064806}
   m_Layer: 0
   m_Name: 'Enemies: harms way (3)'
   m_TagString: Untagged
@@ -161354,6 +166495,56 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2009064806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009064803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!58 &2009064807
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009064803}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.000015258789, y: 0}
+  m_Radius: 0.255
 --- !u!1 &2011674659
 GameObject:
   m_ObjectHideFlags: 0
@@ -161455,6 +166646,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2013323779}
   - component: {fileID: 2013323780}
+  - component: {fileID: 2013323782}
+  - component: {fileID: 2013323781}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (3)'
   m_TagString: Untagged
@@ -161536,6 +166729,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &2013323781
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013323778}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &2013323782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013323778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &2014241740
 GameObject:
   m_ObjectHideFlags: 0
@@ -161637,6 +166881,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2031309893}
   - component: {fileID: 2031309892}
+  - component: {fileID: 2031309895}
+  - component: {fileID: 2031309894}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (31)'
   m_TagString: Untagged
@@ -161718,6 +166964,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1144992563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2031309894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031309891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
+--- !u!70 &2031309895
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031309891}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
 --- !u!1 &2040270335
 GameObject:
   m_ObjectHideFlags: 0
@@ -161910,6 +167207,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2048577500}
   - component: {fileID: 2048577501}
+  - component: {fileID: 2048577503}
+  - component: {fileID: 2048577502}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (38)'
   m_TagString: Untagged
@@ -161991,6 +167290,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &2048577502
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048577499}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &2048577503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048577499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &2048896393
 GameObject:
   m_ObjectHideFlags: 0
@@ -162274,6 +167624,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2069478130}
   - component: {fileID: 2069478131}
+  - component: {fileID: 2069478133}
+  - component: {fileID: 2069478132}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (46)'
   m_TagString: Untagged
@@ -162355,6 +167707,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &2069478132
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069478129}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &2069478133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069478129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &2070121224
 GameObject:
   m_ObjectHideFlags: 0
@@ -162456,6 +167859,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2073951710}
   - component: {fileID: 2073951711}
+  - component: {fileID: 2073951713}
+  - component: {fileID: 2073951712}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (20)'
   m_TagString: Untagged
@@ -162537,6 +167942,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &2073951712
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073951709}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &2073951713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073951709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &2085388673
 GameObject:
   m_ObjectHideFlags: 0
@@ -162922,6 +168378,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2104089331}
   - component: {fileID: 2104089332}
+  - component: {fileID: 2104089334}
+  - component: {fileID: 2104089333}
   m_Layer: 0
   m_Name: 'Enemies: instant kill (51)'
   m_TagString: Untagged
@@ -163003,6 +168461,57 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!70 &2104089333
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104089330}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.6857143, y: 2.0857143}
+  m_Direction: 0
+--- !u!114 &2104089334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104089330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
+  _playerStats: {fileID: 1075570607}
+  _uiManager: {fileID: 1475883239}
 --- !u!1 &2128200064
 GameObject:
   m_ObjectHideFlags: 0
