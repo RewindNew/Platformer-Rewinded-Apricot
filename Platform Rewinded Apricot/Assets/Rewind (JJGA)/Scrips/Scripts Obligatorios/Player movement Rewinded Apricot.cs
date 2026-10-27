@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayermovementRewindedApricot : MonoBehaviour
@@ -30,6 +31,7 @@ public class PlayermovementRewindedApricot : MonoBehaviour
         {
             _rigidBody2D.linearVelocity = new Vector2(1 * _movementSpeed, _rigidBody2D.linearVelocity.y);
             _reflect.flipX = false;
+
         }
 
         if (Input.GetKey(KeyCode.A))

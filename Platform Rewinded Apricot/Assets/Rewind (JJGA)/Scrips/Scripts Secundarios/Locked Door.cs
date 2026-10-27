@@ -9,7 +9,7 @@ public class LockedDoor : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D colision)
     {
-        if (_playerStats._keysCollected == 3)
+        if (_playerStats._keysCollected == 4)
         {
             _door.SetActive(false);
         }

@@ -352,8 +352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &15002471
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,8 +459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &15002475
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -692,7 +692,7 @@ Transform:
   - {fileID: 1446263002}
   - {fileID: 112399505}
   - {fileID: 1133070691}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 859333466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &30418585
 GameObject:
@@ -1018,8 +1018,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &43766630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,8 +1303,8 @@ GameObject:
   m_Component:
   - component: {fileID: 49936410}
   - component: {fileID: 49936413}
-  - component: {fileID: 49936412}
   - component: {fileID: 49936411}
+  - component: {fileID: 49936414}
   m_Layer: 0
   m_Name: Ground Check
   m_TagString: Untagged
@@ -1363,19 +1363,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &49936412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49936409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e228caa311aa264bb67f4aac0be4bdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GroundCheckRwindedApricot
-  estaEnSuelo: 0
 --- !u!212 &49936413
 SpriteRenderer:
   serializedVersion: 2
@@ -1435,6 +1422,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &49936414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49936409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c490b94c0853f48aeb4e11e0f67cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GroundCheckRwindedApricot
+  estaEnSuelo: 0
 --- !u!1 &54883965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,8 +1941,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &81968664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2085,8 +2085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &100738772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2374,8 +2374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &109759222
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2919,8 +2919,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &149020529
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,8 +3518,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &210825708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3625,8 +3625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &210825712
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3839,8 +3839,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &223634749
 GameObject:
   m_ObjectHideFlags: 0
@@ -4037,8 +4037,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &228476224
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4218,8 +4218,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &237979365
 GameObject:
   m_ObjectHideFlags: 0
@@ -4362,8 +4362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &238412803
 GameObject:
   m_ObjectHideFlags: 0
@@ -4763,8 +4763,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &260078634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4907,8 +4907,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &265325853
 GameObject:
   m_ObjectHideFlags: 0
@@ -5324,8 +5324,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &290510884
 GameObject:
   m_ObjectHideFlags: 0
@@ -5650,8 +5650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &300959051
 GameObject:
   m_ObjectHideFlags: 0
@@ -5794,8 +5794,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &302195553
 GameObject:
   m_ObjectHideFlags: 0
@@ -5992,8 +5992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &302335788
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6355,8 +6355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &341499950
 GameObject:
   m_ObjectHideFlags: 0
@@ -6644,8 +6644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &350843385
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6825,8 +6825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &354129711
 GameObject:
   m_ObjectHideFlags: 0
@@ -7009,6 +7009,361 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1236472991}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &358277311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358277312}
+  - component: {fileID: 358277316}
+  - component: {fileID: 358277315}
+  - component: {fileID: 358277314}
+  - component: {fileID: 358277313}
+  m_Layer: 0
+  m_Name: Tilemap Locked door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &358277312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358277311}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1513897056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &358277313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358277311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cff3e74bee47d9499e251d5eda4e8ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LockedDoor
+  _playerStats: {fileID: 1075570611}
+  _door: {fileID: 358277311}
+--- !u!19719996 &358277314
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358277311}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
+--- !u!483693784 &358277315
+TilemapRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358277311}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+--- !u!1839735485 &358277316
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358277311}
+  m_Enabled: 1
+  m_Tiles:
+  - first: {x: 570, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 578, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 570, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 578, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 570, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 578, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 570, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 578, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 571, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 577, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 572, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 573, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 574, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 575, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 576, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 15
+    m_Data: {fileID: 11400000, guid: 8db11f06bd6999847bf2f085017aa3df, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 15
+    m_Data: {fileID: 4524253013591092668, guid: f9d80e2d795fde84da133d590435574f, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 15
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_TileColorArray:
+  - m_RefCount: 15
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: -3, z: 0}
+  m_Size: {x: 579, y: 6, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &367501755
 GameObject:
   m_ObjectHideFlags: 0
@@ -7205,8 +7560,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &378713709
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7244,6 +7599,39 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.6857143, y: 2.0857143}
   m_Direction: 0
+--- !u!1 &394378743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 394378744}
+  m_Layer: 0
+  m_Name: Aderezos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &394378744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394378743}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 188.77322, y: 4.83252, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2088815977}
+  - {fileID: 1180061328}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &397642875
 GameObject:
   m_ObjectHideFlags: 0
@@ -7276,7 +7664,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1513897056}
+  m_Father: {fileID: 1928861156}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &397642877
 TilemapRenderer:
@@ -92670,7 +93058,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 08d7e717e191a9a418e131b1fd44bad9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -92894,8 +93282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &404129253
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -93257,8 +93645,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &413033405
 GameObject:
   m_ObjectHideFlags: 0
@@ -93492,8 +93880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &429097542
 GameObject:
   m_ObjectHideFlags: 0
@@ -93678,8 +94066,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &465042709
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -93859,8 +94247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &476456055
 GameObject:
   m_ObjectHideFlags: 0
@@ -94458,8 +94846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &517802979
 GameObject:
   m_ObjectHideFlags: 0
@@ -94747,8 +95135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &524960507
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -94961,7 +95349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535393520}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 139.3216, y: -32.391, z: 0}
   m_LocalScale: {x: 24.905699, y: -42.050472, z: 1}
   m_ConstrainProportionsScale: 0
@@ -94998,7 +95386,7 @@ Transform:
   - {fileID: 1666391845}
   - {fileID: 893482215}
   - {fileID: 763596043}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 859333466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &538117815
 GameObject:
@@ -95142,8 +95530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &543799951
 GameObject:
   m_ObjectHideFlags: 0
@@ -95446,8 +95834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &554427765
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -96123,8 +96511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &607372419
 GameObject:
   m_ObjectHideFlags: 0
@@ -96137,9 +96525,9 @@ GameObject:
   - component: {fileID: 607372422}
   - component: {fileID: 607372421}
   - component: {fileID: 607372424}
-  - component: {fileID: 607372423}
+  - component: {fileID: 607372425}
   m_Layer: 0
-  m_Name: Tilemap - Keys/Objetos para pasar nivel
+  m_Name: Tilemap - Key 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96235,26 +96623,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 304, y: -24, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 10
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 380, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 8
-      m_TileSpriteIndex: 9
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
@@ -96273,10 +96641,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 643aa430ecd0c734dbc338334f30bb6a, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 2daaf88c7f350524389a45c3fbb779a7, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
@@ -96300,14 +96668,14 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 5306273687827309364, guid: e2a316fc302da814fbe8d5d2833544bb, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 3673837408273292052, guid: 089ae4c746dacb44888565e998cd6309, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -4364816134403145360, guid: 8871e919c50128f4f87fb12d59630720, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 3
+  - m_RefCount: 1
     m_Data:
       e00: 1
       e01: 0
@@ -96326,7 +96694,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 3
+  - m_RefCount: 1
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -96352,21 +96720,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &607372423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607372419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fe83a4aa26616540b01708b0fe3dde8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameKeys
-  _Keys: {fileID: 607372419}
-  _KeySlots: {fileID: 1475883239}
-  _Playerstats: {fileID: 1075570607}
 --- !u!19719996 &607372424
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -96405,6 +96758,21 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &607372425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607372419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754fa3e16784e1c4caad040a23947220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameKeys
+  _Keys: {fileID: 607372419}
+  _KeySlots: {fileID: 1475883241}
+  _Playerstats: {fileID: 1075570611}
 --- !u!1 &614453535
 GameObject:
   m_ObjectHideFlags: 0
@@ -96510,8 +96878,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &614453539
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -96755,7 +97123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657759115}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 212.75, y: -20.677, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -96818,7 +97186,7 @@ Transform:
   - {fileID: 1776202279}
   - {fileID: 1243442759}
   - {fileID: 2104089331}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1091721741}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &659764535
 GameObject:
@@ -96962,8 +97330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &662796486
 GameObject:
   m_ObjectHideFlags: 0
@@ -97433,8 +97801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &685598218
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -97978,8 +98346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &723884086
 GameObject:
   m_ObjectHideFlags: 0
@@ -98433,8 +98801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &741006558
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -98668,8 +99036,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &746524527
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -99304,8 +99672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &823580996
 GameObject:
   m_ObjectHideFlags: 0
@@ -99448,8 +99816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &830552865
 GameObject:
   m_ObjectHideFlags: 0
@@ -99592,8 +99960,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &833635911
 GameObject:
   m_ObjectHideFlags: 0
@@ -99876,7 +100244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 852219949}
-  - component: {fileID: 852219948}
+  - component: {fileID: 852219950}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -99884,18 +100252,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &852219948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852219947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56925110955011e42b8d6e0179e4cd18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManagerRewindedApricot
 --- !u!4 &852219949
 Transform:
   m_ObjectHideFlags: 0
@@ -99904,13 +100260,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852219947}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2120101059}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &852219950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852219947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc57c93d11b2984aacb69dd0bf025a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManagerRewindedApricot
 --- !u!1 &856680526
 GameObject:
   m_ObjectHideFlags: 0
@@ -100002,6 +100370,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &859333465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 859333466}
+  m_Layer: 0
+  m_Name: Wallpapers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &859333466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859333465}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 28967895}
+  - {fileID: 1236472991}
+  - {fileID: 535393522}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &891221479
 GameObject:
   m_ObjectHideFlags: 0
@@ -100107,8 +100509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &891221483
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -100834,8 +101236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &935962954
 GameObject:
   m_ObjectHideFlags: 0
@@ -101396,8 +101798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &968975319
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -101631,8 +102033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &971542502
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -101994,8 +102396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &992541056
 GameObject:
   m_ObjectHideFlags: 0
@@ -102192,8 +102594,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &992803633
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -102464,8 +102866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1007906814
 GameObject:
   m_ObjectHideFlags: 0
@@ -102750,8 +103152,8 @@ GameObject:
   - component: {fileID: 1041139143}
   - component: {fileID: 1041139147}
   - component: {fileID: 1041139146}
-  - component: {fileID: 1041139145}
-  - component: {fileID: 1041139144}
+  - component: {fileID: 1041139149}
+  - component: {fileID: 1041139148}
   m_Layer: 0
   m_Name: Tilemap Key 2
   m_TagString: Untagged
@@ -102774,59 +103176,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1402454043}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!19719996 &1041139144
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041139142}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0
-  m_UseDelaunayMesh: 0
---- !u!114 &1041139145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041139142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fe83a4aa26616540b01708b0fe3dde8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameKeys
-  _Keys: {fileID: 1041139142}
-  _KeySlots: {fileID: 1475883239}
-  _Playerstats: {fileID: 1075570607}
 --- !u!483693784 &1041139146
 TilemapRenderer:
   serializedVersion: 2
@@ -102955,6 +103304,59 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1041139148
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041139142}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
+--- !u!114 &1041139149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041139142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754fa3e16784e1c4caad040a23947220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameKeys
+  _Keys: {fileID: 1041139142}
+  _KeySlots: {fileID: 1475883241}
+  _Playerstats: {fileID: 1075570611}
 --- !u!1 &1042300206
 GameObject:
   m_ObjectHideFlags: 0
@@ -103722,8 +104124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1066012889
 GameObject:
   m_ObjectHideFlags: 0
@@ -103941,8 +104343,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1075570604
 GameObject:
   m_ObjectHideFlags: 0
@@ -103955,8 +104357,8 @@ GameObject:
   - component: {fileID: 1075570605}
   - component: {fileID: 1075570610}
   - component: {fileID: 1075570609}
-  - component: {fileID: 1075570608}
-  - component: {fileID: 1075570607}
+  - component: {fileID: 1075570612}
+  - component: {fileID: 1075570611}
   m_Layer: 0
   m_Name: Player ! (AKA Tammy)
   m_TagString: Player
@@ -104011,7 +104413,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7849066092031354437, guid: 22a72011e6ffc194d8d8295a4f791a8e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -104039,40 +104441,6 @@ Transform:
   - {fileID: 49936410}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1075570607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075570604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62ee7324c44f2a847ae5b68e608ccf9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerStatsRewindedApricot
-  _puntosVidaActuales: 100
-  _vidaMaxima: 100
-  _barra: {fileID: 1583377689}
-  _gameManager: {fileID: 852219948}
-  _keysCollected: 0
---- !u!114 &1075570608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075570604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd0d98414a67e0d4f84e2e2494a96abc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayermovementRewindedApricot
-  _jumpForce: 4
-  _movementSpeed: 5
-  _rigidBody2D: {fileID: 1075570609}
-  _groundCheck: {fileID: 49936412}
-  _reflect: {fileID: 1075570605}
 --- !u!50 &1075570609
 Rigidbody2D:
   serializedVersion: 5
@@ -104137,6 +104505,40 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.66, y: 0.92}
   m_Direction: 0
+--- !u!114 &1075570611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075570604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45e14dda87c06b4491597b25b876c03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStatsRewindedApricot
+  _puntosVidaActuales: 100
+  _vidaMaxima: 100
+  _barra: {fileID: 1583377689}
+  _gameManager: {fileID: 852219950}
+  _keysCollected: 0
+--- !u!114 &1075570612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075570604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f686634db0dd194fb1cb77570888e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayermovementRewindedApricot
+  _jumpForce: 3
+  _movementSpeed: 4
+  _rigidBody2D: {fileID: 1075570609}
+  _groundCheck: {fileID: 49936414}
+  _reflect: {fileID: 1075570605}
 --- !u!1 &1083952303
 GameObject:
   m_ObjectHideFlags: 0
@@ -104319,6 +104721,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1091721740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1091721741}
+  m_Layer: 0
+  m_Name: Instakillers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1091721741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091721740}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1932285115}
+  - {fileID: 1144992563}
+  - {fileID: 657759116}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1092098866
 GameObject:
   m_ObjectHideFlags: 0
@@ -104606,8 +105042,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1098925943
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -104932,8 +105368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1118883920
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -105426,6 +105862,229 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1136315089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1136315090}
+  - component: {fileID: 1136315094}
+  - component: {fileID: 1136315093}
+  - component: {fileID: 1136315092}
+  - component: {fileID: 1136315091}
+  m_Layer: 0
+  m_Name: Tilemap TP 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1136315090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136315089}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1513897056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!19719996 &1136315091
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136315089}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
+--- !u!114 &1136315092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136315089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2de768d406d6244c9ad0ee2f6f6ccf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TeleportScript
+--- !u!483693784 &1136315093
+TilemapRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136315089}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+--- !u!1839735485 &1136315094
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136315089}
+  m_Enabled: 1
+  m_Tiles:
+  - first: {x: 78, y: -26, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 816ce8146bd05424c921691594d1ac5e, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 2
+    m_Data: {fileID: -90375647409325229, guid: 65b5f0bea8479574a9eec66ab199bd16, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 2
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_TileColorArray:
+  - m_RefCount: 2
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: -26, z: 0}
+  m_Size: {x: 262, y: 75, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &1141174394
 GameObject:
   m_ObjectHideFlags: 0
@@ -105692,7 +106351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144992561}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 55.566, y: -9.959, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -105734,7 +106393,7 @@ Transform:
   - {fileID: 1216244959}
   - {fileID: 968975317}
   - {fileID: 378713707}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1091721741}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1147465425
 GameObject:
@@ -105841,8 +106500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1147465429
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -106039,8 +106698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!1839735485 &1157492201
 Tilemap:
   m_ObjectHideFlags: 0
@@ -106295,8 +106954,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1159212817
 GameObject:
   m_ObjectHideFlags: 0
@@ -106493,8 +107152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1173532307
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -106556,8 +107215,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180061327}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 303.61475, y: -5.24915, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 114.84152, y: -10.08167, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -106631,7 +107290,7 @@ Transform:
   - {fileID: 2070121225}
   - {fileID: 407538135}
   - {fileID: 2128200065}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 394378744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183603454
 GameObject:
@@ -106681,8 +107340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!1839735485 &1183603458
 Tilemap:
   m_ObjectHideFlags: 0
@@ -106863,8 +107522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1194089913
 GameObject:
   m_ObjectHideFlags: 0
@@ -106897,7 +107556,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1513897056}
+  m_Father: {fileID: 1928861156}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1194089915
 TilemapRenderer:
@@ -110129,7 +110788,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 08d7e717e191a9a418e131b1fd44bad9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -110390,8 +111049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1212920710
 GameObject:
   m_ObjectHideFlags: 0
@@ -110497,8 +111156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1212920714
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -110823,8 +111482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1216244961
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -111188,8 +111847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!58 &1232797605
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -111310,7 +111969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236472989}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.0809, y: 0.0465, z: 0}
   m_LocalScale: {x: 3.2194397, y: 4.457865, z: 1}
   m_ConstrainProportionsScale: 0
@@ -111338,7 +111997,7 @@ Transform:
   - {fileID: 1841294586}
   - {fileID: 1156716685}
   - {fileID: 1527806869}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 859333466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240837078
 GameObject:
@@ -111482,8 +112141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1243442758
 GameObject:
   m_ObjectHideFlags: 0
@@ -111626,8 +112285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1266266925
 GameObject:
   m_ObjectHideFlags: 0
@@ -111660,7 +112319,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1513897056}
+  m_Father: {fileID: 1928861156}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1266266927
 TilemapRenderer:
@@ -151574,7 +152233,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 08d7e717e191a9a418e131b1fd44bad9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -151707,8 +152366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1267699222
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -152252,8 +152911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1388761354
 GameObject:
   m_ObjectHideFlags: 0
@@ -152354,6 +153013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1402454043}
+  - component: {fileID: 1402454044}
   m_Layer: 0
   m_Name: Tile Maps Keys
   m_TagString: Untagged
@@ -152376,8 +153036,25 @@ Transform:
   m_Children:
   - {fileID: 607372420}
   - {fileID: 1041139143}
+  - {fileID: 1864271348}
+  - {fileID: 1613335817}
   m_Father: {fileID: 1513897056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1402454044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402454042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754fa3e16784e1c4caad040a23947220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameKeys
+  _Keys: {fileID: 1402454042}
+  _KeySlots: {fileID: 1475883241}
+  _Playerstats: {fileID: 1075570611}
 --- !u!1 &1404860369
 GameObject:
   m_ObjectHideFlags: 0
@@ -152702,8 +153379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1419211417
 GameObject:
   m_ObjectHideFlags: 0
@@ -152937,8 +153614,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1423624978
 GameObject:
   m_ObjectHideFlags: 0
@@ -153081,8 +153758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1424013207
 GameObject:
   m_ObjectHideFlags: 0
@@ -153407,8 +154084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1446263000
 GameObject:
   m_ObjectHideFlags: 0
@@ -153642,8 +154319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1450045412
 GameObject:
   m_ObjectHideFlags: 0
@@ -153926,7 +154603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1475883240}
-  - component: {fileID: 1475883239}
+  - component: {fileID: 1475883241}
   m_Layer: 0
   m_Name: UI Manager
   m_TagString: Untagged
@@ -153934,23 +154611,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1475883239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1475883238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3159ff2784f31824885b2c72df88fbe7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIManagerRewindedApricot
-  _barra: {fileID: 1583377689}
-  _gameManager: {fileID: 852219948}
-  _panelDefeat: {fileID: 1995458713}
-  _panelVictory: {fileID: 723884086}
-  _KeySlot: {fileID: 1514730376}
 --- !u!4 &1475883240
 Transform:
   m_ObjectHideFlags: 0
@@ -153959,13 +154619,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475883238}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2120101059}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1475883241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475883238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9fc44c60b3fa7489bf809988f25801, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManagerRewindedApricot
+  _barra: {fileID: 1583377689}
+  _gameManager: {fileID: 852219950}
+  _panelDefeat: {fileID: 1995458713}
+  _panelVictory: {fileID: 723884086}
+  _KeySlot: {fileID: 1514730376}
 --- !u!1 &1478057282
 GameObject:
   m_ObjectHideFlags: 0
@@ -154071,8 +154748,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1478057286
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -154343,8 +155020,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1513897054
 GameObject:
   m_ObjectHideFlags: 0
@@ -154388,11 +155065,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1402454043}
-  - {fileID: 1194089914}
-  - {fileID: 1266266926}
-  - {fileID: 397642876}
+  - {fileID: 1928861156}
   - {fileID: 1958964277}
   - {fileID: 1895252198}
+  - {fileID: 358277312}
+  - {fileID: 1136315090}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1514730376
@@ -154703,8 +155380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1527162085
 GameObject:
   m_ObjectHideFlags: 0
@@ -155575,8 +156252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1567358325
 GameObject:
   m_ObjectHideFlags: 0
@@ -155955,8 +156632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1572418926
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -156302,8 +156979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1611378222
 GameObject:
   m_ObjectHideFlags: 0
@@ -156395,6 +157072,222 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1613335816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613335817}
+  - component: {fileID: 1613335821}
+  - component: {fileID: 1613335820}
+  - component: {fileID: 1613335819}
+  - component: {fileID: 1613335818}
+  m_Layer: 0
+  m_Name: Tilemap Key 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1613335817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613335816}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1402454043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!19719996 &1613335818
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613335816}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
+--- !u!114 &1613335819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613335816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754fa3e16784e1c4caad040a23947220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameKeys
+  _Keys: {fileID: 1613335816}
+  _KeySlots: {fileID: 1475883241}
+  _Playerstats: {fileID: 1075570611}
+--- !u!483693784 &1613335820
+TilemapRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613335816}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+--- !u!1839735485 &1613335821
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613335816}
+  m_Enabled: 1
+  m_Tiles:
+  - first: {x: 380, y: 5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: fa85a02f8068583449258929de460b09, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 1
+    m_Data: {fileID: -5689336583046848145, guid: a84899fb0097a394b99a3700d9f82c22, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 1
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_TileColorArray:
+  - m_RefCount: 1
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: 0, z: 0}
+  m_Size: {x: 381, y: 6, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &1619076188
 GameObject:
   m_ObjectHideFlags: 0
@@ -156901,8 +157794,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1647883054
 GameObject:
   m_ObjectHideFlags: 0
@@ -157099,8 +157992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1654671719
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -157280,8 +158173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1658260175
 GameObject:
   m_ObjectHideFlags: 0
@@ -158115,8 +159008,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!58 &1727111125
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -158386,8 +159279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1728739390
 GameObject:
   m_ObjectHideFlags: 0
@@ -158530,8 +159423,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1737872827
 GameObject:
   m_ObjectHideFlags: 0
@@ -158947,8 +159840,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1760877328
 GameObject:
   m_ObjectHideFlags: 0
@@ -159091,8 +159984,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1771631119
 GameObject:
   m_ObjectHideFlags: 0
@@ -159235,8 +160128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1771727152
 GameObject:
   m_ObjectHideFlags: 0
@@ -159379,8 +160272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1776202278
 GameObject:
   m_ObjectHideFlags: 0
@@ -159523,8 +160416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1776547132
 GameObject:
   m_ObjectHideFlags: 0
@@ -159758,8 +160651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1788302709
 GameObject:
   m_ObjectHideFlags: 0
@@ -160411,8 +161304,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1808445913
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -160646,8 +161539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1823209843
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -161140,6 +162033,222 @@ Transform:
   m_Children: []
   m_Father: {fileID: 28967895}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1864271347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1864271348}
+  - component: {fileID: 1864271352}
+  - component: {fileID: 1864271351}
+  - component: {fileID: 1864271350}
+  - component: {fileID: 1864271349}
+  m_Layer: 0
+  m_Name: Tilemap Key 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1864271348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864271347}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1402454043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1864271349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864271347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754fa3e16784e1c4caad040a23947220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameKeys
+  _Keys: {fileID: 1864271347}
+  _KeySlots: {fileID: 1475883241}
+  _Playerstats: {fileID: 1075570611}
+--- !u!19719996 &1864271350
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864271347}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
+--- !u!483693784 &1864271351
+TilemapRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864271347}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_Mode: 0
+  m_DetectChunkCullingBounds: 0
+--- !u!1839735485 &1864271352
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864271347}
+  m_Enabled: 1
+  m_Tiles:
+  - first: {x: 303, y: -24, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 2daaf88c7f350524389a45c3fbb779a7, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 1
+    m_Data: {fileID: 3673837408273292052, guid: 089ae4c746dacb44888565e998cd6309, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 1
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_TileColorArray:
+  - m_RefCount: 1
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: -24, z: 0}
+  m_Size: {x: 304, y: 24, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &1867765307
 GameObject:
   m_ObjectHideFlags: 0
@@ -161245,8 +162354,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1867765311
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -161480,8 +162589,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1885203059
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -161624,8 +162733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1892652724
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -161674,6 +162783,7 @@ GameObject:
   - component: {fileID: 1895252198}
   - component: {fileID: 1895252200}
   - component: {fileID: 1895252199}
+  - component: {fileID: 1895252201}
   m_Layer: 0
   m_Name: Tilemap - Obstaculos/problems lol
   m_TagString: Untagged
@@ -162026,6 +163136,44 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &1895252201
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895252197}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &1898253538
 GameObject:
   m_ObjectHideFlags: 0
@@ -162532,8 +163680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1923779321
 GameObject:
   m_ObjectHideFlags: 0
@@ -162716,6 +163864,40 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1928861155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1928861156}
+  m_Layer: 0
+  m_Name: Plataformas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1928861156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928861155}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1194089914}
+  - {fileID: 1266266926}
+  - {fileID: 397642876}
+  m_Father: {fileID: 1513897056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1930243766
 GameObject:
   m_ObjectHideFlags: 0
@@ -162831,7 +164013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932285114}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 53.48418, y: -12.12086, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -162842,7 +164024,7 @@ Transform:
   - {fileID: 1771631120}
   - {fileID: 1657145317}
   - {fileID: 1434792044}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1091721741}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1941601253
 GameObject:
@@ -162949,8 +164131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1941601257
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -163093,8 +164275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &1946106763
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -163274,8 +164456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1958964276
 GameObject:
   m_ObjectHideFlags: 0
@@ -166507,8 +167689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!58 &2009064807
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -166778,8 +167960,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &2014241740
 GameObject:
   m_ObjectHideFlags: 0
@@ -166976,8 +168158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!70 &2031309895
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -167339,8 +168521,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &2048896393
 GameObject:
   m_ObjectHideFlags: 0
@@ -167756,8 +168938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &2070121224
 GameObject:
   m_ObjectHideFlags: 0
@@ -167991,8 +169173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &2085388673
 GameObject:
   m_ObjectHideFlags: 0
@@ -168108,8 +169290,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088815976}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.41387, y: 7.35888, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -173.35936, y: 2.52636, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -168184,7 +169366,7 @@ Transform:
   - {fileID: 302195554}
   - {fileID: 2085388674}
   - {fileID: 1540043162}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 394378744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2100401575
 GameObject:
@@ -168510,8 +169692,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8135dc192d2da409ebf0151aabc2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantDeathRA
-  _playerStats: {fileID: 1075570607}
-  _uiManager: {fileID: 1475883239}
+  _playerStats: {fileID: 1075570611}
+  _uiManager: {fileID: 1475883241}
+--- !u!1 &2120101058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2120101059}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2120101059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120101058}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 852219949}
+  - {fileID: 1475883240}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2128200064
 GameObject:
   m_ObjectHideFlags: 0
@@ -168882,20 +170097,14 @@ SceneRoots:
   m_Roots:
   - {fileID: 1043096767}
   - {fileID: 596053883}
-  - {fileID: 1513897056}
   - {fileID: 1075570606}
+  - {fileID: 1513897056}
   - {fileID: 1157492203}
-  - {fileID: 28967895}
-  - {fileID: 1236472991}
-  - {fileID: 535393522}
-  - {fileID: 1932285115}
-  - {fileID: 1144992563}
-  - {fileID: 657759116}
   - {fileID: 1183603455}
   - {fileID: 213507241}
-  - {fileID: 2088815977}
-  - {fileID: 1180061328}
   - {fileID: 543799952}
+  - {fileID: 859333466}
+  - {fileID: 394378744}
   - {fileID: 429097545}
-  - {fileID: 852219949}
-  - {fileID: 1475883240}
+  - {fileID: 2120101059}
+  - {fileID: 1091721741}
