@@ -9,6 +9,7 @@ public class UIManagerRewindedApricot : MonoBehaviour
     [SerializeField] private GameObject _panelDefeat;
     [SerializeField] private GameObject _panelVictory;
     [SerializeField] private GameObject _KeySlot;
+    [SerializeField] private PlayerStatsRewindedApricot _playerStats;
    
 
     public void SumarFillAmount(float amount)
@@ -37,6 +38,7 @@ public class UIManagerRewindedApricot : MonoBehaviour
         }
 
     }
+
 
     public void ActivarSprite()
     {

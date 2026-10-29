@@ -7,8 +7,23 @@ public class PlayerStatsRewindedApricot : MonoBehaviour
     [SerializeField] private int _vidaMaxima = 100;
     [SerializeField] private Image _barra;
     [SerializeField] private GameManagerRewindedApricot _gameManager;
+    public int _Shield = 0;
+    public int _maximumShield = 1;
     public int _keysCollected = 0;
 
+    public void ShieldOn(int ShieldsOn)
+    {
+        _Shield += ShieldsOn;
+        if(_Shield > _maximumShield)
+        {
+            _Shield = _maximumShield;
+        }
+    }
+
+    public void ShieldDestroyed(int ShieldsDestroyed)
+    {
+        _Shield -= ShieldsDestroyed;
+    }
     public void RestarVida(int daño)
     {
         _puntosVidaActuales -= daño;
@@ -48,7 +63,14 @@ public class PlayerStatsRewindedApricot : MonoBehaviour
         if (_barra.fillAmount <= 0.0f)
         {
             _gameManager.PausarElJuego();
+
         }
+
+        if(_Shield == 1)
+        {
+            _barra.color = Color.aquamarine;
+        }
+         
 
     }
 }

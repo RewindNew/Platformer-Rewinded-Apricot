@@ -8,9 +8,17 @@ public class DeadlyTrapRewindedApricot : MonoBehaviour
     {
         if (colision.gameObject.tag == "Player")
         {
-            _playerStats.RestarVida(20);
-            _uiManager.RestarFillAmount(0.2f);
-        }
+            if (_playerStats._Shield == 1)
+            {
+                _playerStats.ShieldDestroyed(1);
+            }
+
+            else
+            {
+              _playerStats.RestarVida(20);
+              _uiManager.RestarFillAmount(0.2f);
+            }     
+         }
 
 
     }
