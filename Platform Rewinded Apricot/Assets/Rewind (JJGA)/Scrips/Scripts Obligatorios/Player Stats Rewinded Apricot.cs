@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,12 @@ public class PlayerStatsRewindedApricot : MonoBehaviour
     public int _Shield = 0;
     public int _maximumShield = 1;
     public int _keysCollected = 0;
+    public int _points = 0;
+
+    public void SumarPuntos(int puntos)
+    {
+        _points += puntos;
+    }
 
     public void ShieldOn(int ShieldsOn)
     {
@@ -70,6 +77,8 @@ public class PlayerStatsRewindedApricot : MonoBehaviour
         {
             _barra.color = Color.aquamarine;
         }
+
+        
          
 
     }
