@@ -11,6 +11,12 @@ public class UIManagerRewindedApricot : MonoBehaviour
     [SerializeField] private GameObject _KeySlot;
     [SerializeField] private PlayerStatsRewindedApricot _playerStats;
     [SerializeField] private Image _PointsBar;
+    [SerializeField] private Image _keysBar;
+
+    public void SumarBarraLLaves(float amount)
+    {
+        _keysBar.fillAmount += amount;
+    }
 
     public void SumarPointsFillAmount(float amount)
     {

@@ -12,6 +12,12 @@ public class PlayerStatsRewindedApricot : MonoBehaviour
     public int _maximumShield = 1;
     public int _keysCollected = 0;
     public int _points = 0;
+    public int _finalKey = 0;
+
+    public void llaveFinal(int key)
+    {
+        _finalKey += key;
+    }
 
     public void SumarPuntos(int puntos)
     {
