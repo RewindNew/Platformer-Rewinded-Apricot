@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 3458067102753955189}
   - component: {fileID: 7274666679190576487}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Ui Jugabilidad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
