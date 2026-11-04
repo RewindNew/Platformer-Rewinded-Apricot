@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rewind (JJGA)/Escenas/Platformer Level 1 (JJGA).unity
     guid: d4508b8a99e3040458b5a9f7abaf1d79
+  - enabled: 1
+    path: Assets/Isa! (Apricot's stuff)/Scenes/Platformer Level 2.unity
+    guid: 9812dc6b66383ac41bec5f027cebe843
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
