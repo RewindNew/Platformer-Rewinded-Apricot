@@ -115968,6 +115968,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &947838087 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5823682470154300608, guid: 0fa1be574e610934893abf3f889ac0d1, type: 3}
+  m_PrefabInstance: {fileID: 6113626391529442081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &952838932
 GameObject:
   m_ObjectHideFlags: 0
@@ -189844,6 +189855,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5677661472952845710, guid: 0fa1be574e610934893abf3f889ac0d1, type: 3}
+      propertyPath: tiempo
+      value: 420
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677661472952845710, guid: 0fa1be574e610934893abf3f889ac0d1, type: 3}
+      propertyPath: Textotiempo
+      value: 
+      objectReference: {fileID: 947838087}
+    - target: {fileID: 5677661472952845710, guid: 0fa1be574e610934893abf3f889ac0d1, type: 3}
+      propertyPath: panelTimeOut
+      value: 
+      objectReference: {fileID: 1535997441}
     - target: {fileID: 5868430679719423866, guid: 0fa1be574e610934893abf3f889ac0d1, type: 3}
       propertyPath: m_Name
       value: Canvas

@@ -83,9 +83,5 @@ public class PlayerStatsRewindedApricot : MonoBehaviour
         {
             _barra.color = Color.aquamarine;
         }
-
-        
-         
-
     }
 }
