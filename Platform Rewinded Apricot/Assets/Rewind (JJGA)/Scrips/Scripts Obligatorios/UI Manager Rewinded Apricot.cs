@@ -40,15 +40,13 @@ public class UIManagerRewindedApricot : MonoBehaviour
             _panelDefeat.SetActive(true);
         }
     }
-    private void OnCollisionEnter2D(Collision2D colision)
+ 
+    public void Victory()
     {
-        if (colision.gameObject.CompareTag("Player"))
-        {
-            _gameManager.PausarElJuego();
-            _panelVictory.SetActive(true);
-        }
-
+       _panelVictory.SetActive(true);
     }
+
+    
 
 
     public void ActivarSprite()

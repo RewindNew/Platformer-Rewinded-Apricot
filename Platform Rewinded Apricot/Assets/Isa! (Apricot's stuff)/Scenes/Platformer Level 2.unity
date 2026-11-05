@@ -118219,8 +118219,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1042300208}
   - component: {fileID: 1042300207}
-  - component: {fileID: 1042300209}
   - component: {fileID: 1042300210}
+  - component: {fileID: 1042300211}
   m_Layer: 0
   m_Name: Base - Palito
   m_TagString: Untagged
@@ -118302,26 +118302,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 213507241}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1042300209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1042300206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e9fc44c60b3fa7489bf809988f25801, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIManagerRewindedApricot
-  _barra: {fileID: 1274908527}
-  _gameManager: {fileID: 852219950}
-  _panelDefeat: {fileID: 0}
-  _panelVictory: {fileID: 0}
-  _KeySlot: {fileID: 1514730376}
-  _playerStats: {fileID: 36720190}
-  _PointsBar: {fileID: 1018153099}
-  _keysBar: {fileID: 0}
 --- !u!61 &1042300210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118368,6 +118348,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.74285716, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1042300211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042300206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55dabb2de1748ab4a95c981882b3c70f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wincondition
+  _gameManager: {fileID: 852219950}
+  _uiManager: {fileID: 1475883241}
 --- !u!1 &1043096764
 GameObject:
   m_ObjectHideFlags: 0
@@ -122763,6 +122757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b357380fa3b83349bae62b9baa4af10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadlyTrapRewindedApricot
+  _playerStats: {fileID: 0}
+  _uiManager: {fileID: 0}
 --- !u!1839735485 &1183603458
 Tilemap:
   m_ObjectHideFlags: 0
@@ -168184,17 +168180,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.6857143, y: 2.0857143}
   m_Direction: 0
---- !u!114 &1274908527 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5434868672349261557, guid: 0fa1be574e610934893abf3f889ac0d1, type: 3}
-  m_PrefabInstance: {fileID: 6113626391529442081}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &1291584448
 GameObject:
   m_ObjectHideFlags: 0

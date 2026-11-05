@@ -426,6 +426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1600767548868308517, guid: eb08a37fdfb86694b8889fc06e33435e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2190384289624499410, guid: eb08a37fdfb86694b8889fc06e33435e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -442,6 +446,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1147157328}
+    - target: {fileID: 3326333573013527521, guid: eb08a37fdfb86694b8889fc06e33435e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8435151228427288224, guid: f1b61a22e12b79046a9329ad232ffa4e, type: 3}
     - target: {fileID: 5379041323589200420, guid: eb08a37fdfb86694b8889fc06e33435e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -454,8 +462,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1147157328}
+    - target: {fileID: 6339852649959592335, guid: eb08a37fdfb86694b8889fc06e33435e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 137
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6749787593706797578, guid: eb08a37fdfb86694b8889fc06e33435e, type: 3}
+    - {fileID: 7958049525585860507, guid: eb08a37fdfb86694b8889fc06e33435e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb08a37fdfb86694b8889fc06e33435e, type: 3}
